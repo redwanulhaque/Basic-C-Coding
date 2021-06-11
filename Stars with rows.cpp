@@ -22,10 +22,11 @@ int main(){
 	cout << endl;
 
 	for(int i=0; i<integer; i++){
-															for(int x=stored[i]; x>0; x--){											cout << " * ";
-														  }
-														  cout << endl;
-														  }
+		for(int x=stored[i]; x>0; x--){											
+			cout << " * ";
+		}
+		cout << endl;
+	}
 
 	return 0;
 }
