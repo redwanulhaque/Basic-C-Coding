@@ -1,15 +1,13 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
+int main() {
+	
 	int x;
 	int y;
 
 	cout << "Enter a positive integer: ";
 	cin >> x;
-
-	cout << "The factors of " << x << " are: " << endl;
 
     	while(x<0){
 	cout << "No factor for negative number! Try again: ";
@@ -23,7 +21,6 @@ int main()
 		if(x % y == 0)
 		cout << y << endl;
 	}
-
 
 	return 0;
 }
