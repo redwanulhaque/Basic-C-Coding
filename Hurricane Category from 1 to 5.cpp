@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
 	int x;
-	cout << "Enter a category from 1-5!" <<endl;
+	cout << "Enter a category from 1-5: ";
 	cin >> x;
 	
 	if (x==1){
